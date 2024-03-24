@@ -970,6 +970,18 @@ input, select, textarea {
 			border-top: solid 2px #ffffff;
 		}
 
+		.prices td, .prices tr{
+			border-top: 0px;
+			border-bottom: 0px;
+			text-align:right;
+		}
+		.prices thead tr .service{
+			text-align:left;
+		}
+		.prices thead tr th{
+			text-align:right;
+		}
+
 		table.alt {
 			border-collapse: separate;
 		}
